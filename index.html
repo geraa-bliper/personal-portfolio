@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Semantic Header & Navigation -->
+    <header id="top-header">
+        <nav class="navbar">
+            <h1 class="logo">MyPortfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- 1. Home Section -->
+        <section id="home" class="section hero">
+            <img src="images/profile.jpg" alt="Profile Picture" class="profile-img">
+            <h2>Hello, I'm Gerrard Joseph Ndaga</h2>
+            <p>A passionate Software Development & Web Technologies student at KCA University building clean,
+                user-friendly websites.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </section>
+
+        <!-- 2. About Me Section (Includes Table for Education) -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am an enthusiastic tech student based in Nairobi, Kenya. I enjoy solving problems through code,
+                learning modern web standards, and building practical digital solutions.</p>
+
+            <h3>Educational Background</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Institution</th>
+                        <th>Qualification</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2026 – Present</td>
+                        <td>KCA University</td>
+                        <td>Bachelor of Science in Security in Forensics</td>
+                    </tr>
+                    <tr>
+                        <td>2021 – 2025</td>
+                        <td>Ugenya High School</td>
+                        <td>Kenya Certificate of Secondary Education (KCSE)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Personal Interests</h3>
+            <ol>
+                <li>Web Design & UI/UX</li>
+                <li>Open-Source Software</li>
+                <li>Tech Blogging & Gaming</li>
+            </ol>
+        </section>
+
+        <!-- 3. Skills Section (At least 5 technical skills in an Unordered List) -->
+        <section id="skills" class="section bg-light">
+            <h2>Technical Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5 & Semantic Markup</li>
+                <li>CSS3 (Flexbox, Grid & Responsive Design)</li>
+                <li>JavaScript (ES6 Basics)</li>
+                <li>Git & GitHub Version Control</li>
+                <li>Database Management (MySQL)</li>
+            </ul>
+        </section>
+
+        <!-- 4. Projects Section (At least 3 projects using CSS Grid/Flexbox cards) -->
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>1. Personal Portfolio Website</h3>
+                    <p>A responsive personal website built with semantic HTML5 and external CSS3, hosted on GitHub
+                        Pages.</p>
+                </div>
+                <div class="project-card">
+                    <h3>2. Student Task Tracker (Proposed)</h3>
+                    <p>A web-based schedule manager designed to help university students track CATs, assignments, and
+                        deadlines.</p>
+                </div>
+                <div class="project-card">
+                    <h3>3. Local Business Landing Page</h3>
+                    <p>A clean promotional website created for a local Nairobi coffee shop featuring menus and location
+                        info.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Contact Section (Email + Form) -->
+        <section id="contact" class="section bg-light">
+            <h2>Contact Me</h2>
+            <p>Email me directly at: <a href="mailto:2606776@students.kcau.ac.ke">2606776@students.kcau.ac.ke</a></p>
+
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message here..."
+                    required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Semantic Footer -->
+    <footer>
+        <p>&copy; 2026 Gearrard Joseph Ndaga. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
