@@ -10,4 +10,4 @@ A responsive personal portfolio website built using HTML5 and CSS3 to showcase m
 
 ## Live Website
 
-Hosted via GitHub Pages: `https://[your-github-username].github.io/personal-portfolio/`
+Hosted via GitHub Pages:https://geraa-bliper.github.io/personal-portfolio/
